@@ -123,7 +123,8 @@ bot.on('message', (msg) => {
             break;
         case "/bot":
         case "/help":
-        case "/ayuda": {
+        case "/ayuda":
+        case "/start": {
             bot.sendMessage(
                 chatId,
                 `/casos - Resumen de situación actual\n/confirmados - Confirmados por sexo\n/camas - Estado de camas\n/contacto - Teléfonos de contacto\n/dolar - Cotizaciones del dolar\n/clima - Temperatura actual`,
