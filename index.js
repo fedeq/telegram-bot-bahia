@@ -145,9 +145,6 @@ bot.on('message', (msg) => {
 });
 
 
-// Move the package imports to the top of the file
-
-
 const app = express();
 
 app.use(bodyParser.json());
